@@ -1,0 +1,267 @@
+@import './fonts.css';
+
+@media only screen {
+    .landing-wr {
+        /* width: 100%; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    /* .landing {
+    } */
+    
+    .nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        position: sticky;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 20px;
+        z-index: 200;
+        background-color: #e7f0e4;
+    }
+    
+    .n-item {
+        font-family: 'sfr';
+        font-size: 16px;
+        color: #5d665a;
+        background-color: #d5e4d1;
+        border-radius: 50px;
+        padding: 10px 26px 10px 26px;
+        cursor: pointer;
+        transition: 0.6s ease-in-out;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .n-none-item {
+        display: none;
+    }
+    
+    .email-icon {
+        fill: #6d756b;
+        height: 20px;
+    }
+    
+    .personal {
+        margin-top: 30px;
+        padding: 0px 20px 0px 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .pic-Container {
+        border-radius: 100px;
+        padding: 40px;
+        background-color: #d5e4d1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .pic {
+        height: 90px;
+        width: auto;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .green {
+        color: #128c7e;
+        font-family: 'sfr';
+    }
+    
+    .p-title {
+        margin-top: 40px;
+        color: #5d665a;
+        font-size: 24px;
+        text-align: center;
+    }
+    
+    .p-highlight {
+        margin-top: 20px;
+        font-family: 'sfr';
+        color: #128c7e;
+        line-height: 40px;
+        font-size: 22px;
+        text-align: center;
+    }
+    
+    .p-desc {
+        text-align: center;
+        margin-top: 20px;
+        color: #5d665a;
+        font-size: 22px;
+        line-height: 40px;
+        padding: 0px 20px 0px 20px;
+    }
+    
+    .p-btn {
+        border-radius: 5px;
+        margin-top: 40px;
+        background-color: #128c7e;
+        color: white;
+        padding: 15px 60px 15px 60px;
+        border: none;
+        font-family: 'sfb';
+        font-size: 16px;
+        outline: none;
+        margin-bottom: 60px;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 64.063em) {
+    .landing-wr {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .landing {
+        
+    }
+    
+    .nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        position: sticky;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 20px;
+        z-index: 200;
+        background-color: #e7f0e4;
+    }
+    
+    .n-item {
+        font-family: 'sfr';
+        font-size: 16px;
+        color: #5d665a;
+        background-color: #d5e4d1;
+        border-radius: 50px;
+        padding: 10px 26px 10px 26px;
+        cursor: pointer;
+        transition: 0.6s ease-in-out;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        transition: 0.5s ease-in-out;
+    }
+
+    .n-item:hover .email-icon {
+        fill: #128c7e;;
+    }
+
+    .n-none-item {
+        font-family: 'sfr';
+        font-size: 16px;
+        color: #5d665a;
+        background-color: #d5e4d1;
+        border-radius: 50px;
+        padding: 10px 26px 10px 26px;
+        cursor: pointer;
+        transition: 0.6s ease-in-out;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        transition: 0.5s ease-in-out;
+    }
+
+    .n-none-item:hover .email-icon {
+        fill: #128c7e;;
+    }
+    
+    .email-icon {
+        fill: #6d756b;
+        height: 20px;
+    }
+    
+    .personal {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .pic-Container {
+        border-radius: 100px;
+        padding: 40px;
+        background-color: #d5e4d1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .pic {
+        height: 120px;
+        width: auto;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .green {
+        color: #128c7e;
+        font-family: 'sfr';
+    }
+    
+    .p-title {
+        margin-top: 40px;
+        color: #5d665a;
+        font-size: 35px;
+        text-align: center;
+    }
+    
+    .p-highlight {
+        margin-top: 30px;
+        font-family: 'sfr';
+        color: #128c7e;
+        line-height: 45px;
+        font-size: 24px;
+        text-align: center;
+        padding: 0px 400px 0px 400px;
+        display: none;
+    }
+    
+    .p-desc {
+        text-align: center;
+        margin-top: 30px;
+        color: #5d665a;
+        font-size: 22px;
+        padding: 0px 400px 0px 400px;
+        line-height: 40px;
+    }
+    
+    .p-btn {
+        border-radius: 5px;
+        margin-top: 50px;
+        background-color: #128c7e;
+        color: white;
+        padding: 15px 100px 15px 100px;
+        border: none;
+        font-family: 'sfb';
+        font-size: 16px;
+        outline: none;
+        cursor: pointer;
+    }
+}
